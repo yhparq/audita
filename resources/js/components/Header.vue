@@ -10,12 +10,12 @@
       </button>
       <ul class="hidden md:flex space-x-6 text-sm font-medium">
         <li><a href="#" class="hover:text-[#ffb300]">Inicio</a></li>
-        <li><a href="#features" class="hover:text-[#ffb300]">Inversion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Expositores</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Temario</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Investigacion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Informacion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Contacto</a></li>
+        <li><a href="#material" class="hover:text-[#ffb300]">Material</a></li>
+        <li><a href="#tarifas" class="hover:text-[#ffb300]">Tarifas</a></li>
+        <li><a href="#confe" class="hover:text-[#ffb300]">Conferencistas</a></li>
+        <li><a href="#temas" class="hover:text-[#ffb300]">Temario</a></li>
+        <li><a href="#info" class="hover:text-[#ffb300]">Informacion</a></li>
+        <li><a href="#contacto" class="hover:text-[#ffb300]">Contacto</a></li>
         <li>
           <a href="/login" class="bg-[#ffb300] text-[#00367e] px-4 py-2 rounded-md hover:bg-white transition">
             Ingresar
@@ -28,12 +28,12 @@
     <div v-if="menuOpen" class="md:hidden bg-[#00367e] text-white px-4 pb-4 shadow-md">
       <ul class="flex flex-col space-y-3">
         <li><a href="#" class="hover:text-[#ffb300]">Inicio</a></li>
-        <li><a href="#features" class="hover:text-[#ffb300]">Inversion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Expositores</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Temario</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Investigacion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Informacion</a></li>
-        <li><a href="#contact" class="hover:text-[#ffb300]">Contacto</a></li>
+        <li><a href="#material" class="hover:text-[#ffb300]">Material</a></li>
+        <li><a href="#tarifas" class="hover:text-[#ffb300]">Tarifas</a></li>
+        <li><a href="#confe" class="hover:text-[#ffb300]">Conferencistas</a></li>
+        <li><a href="#temas" class="hover:text-[#ffb300]">Temario</a></li>
+        <li><a href="#info" class="hover:text-[#ffb300]">Informacion</a></li>
+        <li><a href="#contacto" class="hover:text-[#ffb300]">Contacto</a></li>
         <li>
           <a href="/login" class="bg-[#ffb300] text-[#00367e] px-4 py-2 rounded-md hover:bg-white transition">
             Ingresar

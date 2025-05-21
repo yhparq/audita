@@ -37,3 +37,23 @@ export interface User {
 }
 
 export type BreadcrumbItemType = BreadcrumbItem;
+
+export interface Participante {
+  id: number;
+  nombres: string;
+  apellidos: string;
+  dni: string;
+  telefono: string;
+  correo: string;
+  institucion: string;
+  tipo: 'pleno' | 'observador' | 'estudiante';
+  codigo_operacion: string;
+  voucher_pago: string | null;
+  estado: 'activo' | 'inactivo';
+  departamento: string;
+  provincia: string;
+  distrito: string;
+  direccion: string;
+  created_at: string;
+  updated_at: string;
+}

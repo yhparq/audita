@@ -9,7 +9,19 @@ class Estudiante extends Model
 {
     //
 
-    protected $fillable = ['user_id', 'nombres', 'apellidos', 'dni', 'telefono', 'correo', 'institucion', 'tipo', 'voucher_pago', 'estado'];
+    protected $fillable = [
+        'user_id',
+        'nombres',
+        'apellidos',
+        'dni',
+        'telefono',
+        'correo',
+        'institucion',
+        'tipo',
+        'codigo_operacion',
+        'voucher_pago',
+        'estado'
+    ];
 
     public function user()
     {
